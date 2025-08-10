@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mq_study_project
+    profiles:
+      active: local
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_study?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: your_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc:
+      template:
+        max-rows: 1000
+
+  logging:
+    level:
+      org.springframework.data.jdbc.core: DEBUG

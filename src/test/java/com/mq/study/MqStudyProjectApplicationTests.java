@@ -1,4 +1,4 @@
-package com.mq_study.mq_study_project;
+package com.mq.study;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

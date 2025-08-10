@@ -1,4 +1,4 @@
-package com.mq_study.mq_study_project;
+package com.mq.study;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

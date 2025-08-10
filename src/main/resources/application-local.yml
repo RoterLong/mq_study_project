@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: mq_study_project
+    profiles:
+      active: local
+
+
+# 开发环境配置
+server:
+  # 服务器的HTTP端口
+  port: 8888
+
+
+
+#MQTT配置
+mqtt:
+  # MQTT服务器地址
+  broker-url: tcp://localhost:1883
+  # MQTT客户端ID前缀
+  client-id-prefix: my-test-
+  # MQTT账号
+  username:
+  # MQTT密码
+  password:
+  # 连接超时时间（秒）
+  connection-timeout: 30
+  # 心跳间隔（秒）
+  keep-alive-interval: 60
+  # 是否清除会话
+  clean-session: true
+  # 是否自动重连
+  automatic-reconnect: true
